@@ -1,0 +1,33 @@
+*{box-sizing:border-box;
+margin:0;}
+h1{ text-align:center;
+text-transform:uppercase;
+background:#132;
+color:#fff;}
+.container{display:flex;
+position:relative;
+text-align:center;
+justify-content:center;}
+.wrapper{display:center;
+position:absolute;
+top:300px;
+}
+.input-container{
+    font-size:18px;
+    background:#ddd;
+    padding:5px;
+}
+#input, #result{border:none;
+font-size:18px;}
+#inputType, #resultType{font-size:16px;
+padding:2px;}
+/* #opt-input:hover{background:rgb(245, 241, 6); */
+/* } */
+#input::placeholder, #result::placeholder {text-align:center;
+}
+@media only screen and (max-width :968px){ 
+    .container{width:300px;
+    display:flex;
+position:absolute;
+left:100px;}
+}
